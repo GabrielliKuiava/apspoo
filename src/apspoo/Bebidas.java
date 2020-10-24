@@ -7,7 +7,7 @@ public class Bebidas extends Produtos{
       
   }  
     
-  public Bebidas(String Nome, int Qtd, float Valor){
+  public Bebidas(String Nome, int Qtd, double Valor){
       super(Nome,Qtd,Valor); 
   }
 

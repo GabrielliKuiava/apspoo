@@ -7,7 +7,8 @@ public class Limpeza  extends Produtos {
         
     }
     
-    public Limpeza(String Nome, int Qtd, float Valor){
+    public Limpeza(String Nome, int Qtd, double Valor){
     super(Nome,Qtd,Valor);
 }
+    
 }
