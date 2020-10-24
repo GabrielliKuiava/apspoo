@@ -4,7 +4,7 @@ package apspoo;
 import java.util.Scanner;
 
 public class Apspoo {
-     static var tipoproduto;
+    static var tipoproduto;
     
    
     public static void main(String[] args, String Nome) {
@@ -33,7 +33,7 @@ public class Apspoo {
                 B1.setQtd(tipoproduto);
                 break;
             case 2:
-                Comidas C1 = new Comidas();
+                Alimentos C1 = new Alimentos();
                 System.out.println("Insira o nome:");
                 tipoproduto = teclado.next(Nome);
                 C1.setNome(tipoproduto);
@@ -72,4 +72,5 @@ public class Apspoo {
     
 
   }
-}
+
+  
