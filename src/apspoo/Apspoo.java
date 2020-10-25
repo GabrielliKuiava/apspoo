@@ -10,7 +10,7 @@ public class Apspoo {
     
    
     public static void main(String[] args) {
-        
+        Collection <String> listaProdutos = new ArrayList<>();
         
         for (int i = 0; i < 10; i++) {
             
