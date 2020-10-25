@@ -1,13 +1,15 @@
 
 package apspoo;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import javax.swing.JOptionPane;
 
 public class Produtos {
    public  String Nome;
    public int Qtd;
    protected double Valor;
-   
+   Collection <String> listaProdutos = new ArrayList<>();
     
    
    public Produtos(String Nome, int Qtd, double Valor){
