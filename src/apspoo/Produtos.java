@@ -1,13 +1,16 @@
 
 package apspoo;
 
+import javax.swing.JOptionPane;
+
 public class Produtos {
    public  String Nome;
    public int Qtd;
-   public float Valor;
+   protected double Valor;
+   
     
    
-   public Produtos(String Nome, int Qtd, float Valor){
+   public Produtos(String Nome, int Qtd, double Valor){
         this.Nome = Nome;
         this.Qtd = Qtd;
         this.Valor = Valor;
@@ -23,7 +26,12 @@ public class Produtos {
      public void setQtd(int Qtd){
         this.Qtd = Qtd;
      } 
-     public void setValor(float Valor){
+     public void setValor(double Valor){
         this.Valor = Valor;
      }
+     
+    public void imprimir(){
+        String texto = "Nome: " + this.Nome + "\nQuantidade: " + this.Qtd;
+        JOptionPane.showMessageDialog(null, texto);
+    }
 }

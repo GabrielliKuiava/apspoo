@@ -3,7 +3,12 @@ package apspoo;
 
 public class Limpeza  extends Produtos {
     
-    public Limpeza(String Nome, int Qtd, float Valor){
+    public Limpeza(){
+        
+    }
+    
+    public Limpeza(String Nome, int Qtd, double Valor){
     super(Nome,Qtd,Valor);
 }
+    
 }
